@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Thales\Desktop\DesafiosUri\.metadata\.plugins\org.eclipse.jdt.core
+1887079466.index
+552717822.index
