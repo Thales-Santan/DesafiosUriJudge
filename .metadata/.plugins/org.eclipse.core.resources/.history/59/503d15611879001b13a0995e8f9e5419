@@ -1,0 +1,17 @@
+import java.util.*;
+public class Uri1009 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String nome;
+		double salario, vendas;
+		
+		nome = teclado.next();
+		salario = teclado.nextDouble();
+		vendas = teclado.nextDouble();
+		/*Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas,
+		 *  informar o total a receber no final do mês, com duas casas decimais.*/
+		System.out.printf("TOTAL = R$ %.2f",(vendas * 0.15)+salario);
+	}
+
+}

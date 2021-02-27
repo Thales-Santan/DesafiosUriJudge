@@ -1,0 +1,19 @@
+import java.util.*;
+public class Uri1009 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String nome;
+		double salario, vendas;
+		
+		nome = teclado.next();
+		salario = teclado.nextDouble();
+		vendas = teclado.nextDouble();
+		
+		System.out.printf("TOTAL = R$ %.2f",(vendas * 0.15)+salario);
+		
+		
+
+	}
+
+}
