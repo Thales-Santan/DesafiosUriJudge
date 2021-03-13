@@ -7,14 +7,16 @@ public class Uri1015 {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		
-		double x1,x2,y1,y2;
+		double x1,x2,y1,y2,distanciaPontos=0;
+		
 		
 		x1 = teclado.nextDouble();
 		y1 = teclado.nextDouble();
 		x2 = teclado.nextDouble();
 		y2 = teclado.nextDouble();
+		distanciaPontos = Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1,2));
 		
-		System.out.printf("%.4f%n",Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1,2)));
+		System.out.printf("%.4f",distanciaPontos);
 		teclado.close();
 	}
 
